@@ -52,10 +52,10 @@ layers:
   - LCTRL
   - MUTE
   - LEFT ALT
-  - LGUI
+  - LEFT ALT
   - layer 1
-  - SPACE
   - ENTER
+  - SPACE
   - layer 2
   - LEFT WIN
   - RIGHT ALT
