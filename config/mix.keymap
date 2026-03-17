@@ -53,11 +53,11 @@
         LAYER1 {
             display-name = "layer 1";
             bindings = <
-&trans             &kp LC(F1)      &kp LC(F2)      &kp LC(F3)       &kp LC(F4)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_SUBTRACT  &trans
-&trans             &trans          &kp UP_ARROW    &trans           &trans        &kp MINUS             &kp EQUAL              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp KP_PLUS      &trans
-&trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp KP_ENTER     &trans
-&kp LC(LA(SPACE))  &trans          &kp LC(X)       &kp LC(C)        &kp LC(V)     &kp LG(V)             &trans                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp KP_DOT       &trans
-&trans             &trans          &trans          &trans           &trans        &trans                &trans                 &trans        &kp NUMBER_0  &trans           &trans           &trans
+&trans             &kp LC(F1)              &kp LC(F2)      &kp LC(F3)               &kp LC(F4)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_SUBTRACT  &trans
+&trans             &kp RS(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LS(LG(RIGHT_ARROW))  &trans        &kp MINUS             &kp EQUAL              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp KP_PLUS      &trans
+&kp LC(LA(LS(Q)))  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp UP_ARROW  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp KP_ENTER     &trans
+&kp LC(LA(SPACE))  &trans                  &kp LC(X)       &kp LC(C)                &kp LC(V)     &kp LG(V)             &trans                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp KP_DOT       &trans
+&trans             &trans                  &trans          &trans                   &trans        &trans                &trans                 &trans        &kp NUMBER_0  &trans           &trans           &trans
             >;
 
             sensor-bindings =
