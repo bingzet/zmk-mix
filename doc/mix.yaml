@@ -75,9 +75,9 @@ layers:
   - KP SUBTRACT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+LEFT ARROW
   - UP ARROW
-  - {t: ▽, type: trans}
+  - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - '-'
   - '='
@@ -86,7 +86,7 @@ layers:
   - '9'
   - KP PLUS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Meh+Q
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
